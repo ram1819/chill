@@ -4,4 +4,3 @@ C++
 JS
 Java
 React
-Node Js
