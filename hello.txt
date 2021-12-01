@@ -1,5 +1,37 @@
-Python
-C
-C++
-JS
-Java
+{
+  result:{
+    basic:{
+      no:{value:"ACD",page:1,coordinate:{x1:x2:x3...}},
+      date:    ""        ,
+    },
+
+    vendor:     ""     ,
+
+    .......,
+
+    itemlevel:{
+      tabel:{
+        description:[
+          {value:..,page:1,coordinate:{}},
+          {value:..,page:2,coordinate:{}},
+                      ""               ,
+        ]
+      }
+    }
+  }
+
+  coordinates:[[page1-Coordinates],[page2-coordinates]....],
+  
+  page1ExtractedDataCoordinates:[ 
+    {coordinate},
+    {coordinate},
+    .....
+    
+  ],
+  page2ExtractedDataCoordinates:[ 
+    {coordinate},
+    {coordinate},
+    .....
+    
+  ],....
+}
