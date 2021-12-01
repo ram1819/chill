@@ -22,16 +22,16 @@
 
   coordinates:[[page1-Coordinates],[page2-coordinates]....],
   
-  page1ExtractedDataCoordinates:[ 
-    {coordinate},
-    {coordinate},
-    .....
-    
-  ],
-  page2ExtractedDataCoordinates:[ 
-    {coordinate},
-    {coordinate},
-    .....
-    
-  ],....
+  pageWISEExtractedDataCoordinates:[
+    [
+      {coordinate},
+      {coordinate},
+      .....
+    ],
+    [ 
+      {coordinate},
+      {coordinate},
+      .....
+    ],....
+  ]
 }
