@@ -1,37 +1,113 @@
 {
-  result:{
-    basic:{
-      no:{value:"ACD",page:1,coordinate:{x1:x2:x3...}},
-      date:    ""        ,
-    },
-
-    vendor:     ""     ,
-
-    .......,
-
-    itemlevel:{
-      tabel:{
-        description:[
-          {value:..,page:1,coordinate:{}},
-          {value:..,page:2,coordinate:{}},
-                      ""               ,
-        ]
-      }
-    }
-  }
-
-  coordinates:[[page1-Coordinates],[page2-coordinates]....],
-  
-  pageWISEExtractedDataCoordinates:[
-    [
-      {coordinate},
-      {coordinate},
-      .....
-    ],
-    [ 
-      {coordinate},
-      {coordinate},
-      .....
-    ],....
-  ]
+    'basic':
+        {
+            'no':
+                {
+                    'value': '11N01',
+                    'coordinates':[[321.65,300.86,400.15,302.26]], 
+                    'page': 1
+                },
+            'date':
+                {
+                    'value': '12 AUG 2019',
+                    'coordinates':[[221.65,100.86,250.15,102.26]],
+                    'page': 1
+                }      
+        },
+    'vendor':
+        {
+            'name':
+                {
+                    'value': 'Vakilsearch',
+                    'coordinates':[[121.65,100.86,150.15,102.26]],
+                    'page': 1
+                },
+            'address':
+                {
+                    'value': 'Building - 9,Ambattur, Chennai, Tamil Nadu 600040',
+                    'coordinates':[[121.65,100.86,150.15,102.26],[221.65,100.86,250.15,102.26]],
+                    'page': 1
+                },
+            'gst':
+                {
+                    'value': '123SDJJHJ234',
+                    'coordinates':[[221.65,100.86,250.15,102.26]],
+                    'page': 1
+                }
+        },
+    'customer':
+        {
+            'name':
+                {
+                    'value': 'Anonymous',
+                    'coordinates':[[621.65,500.86,650.15,502.26]],
+                    'page': 1
+                },
+            'address':
+                {
+                    'value': 'Building - 9,Ambattur, Chennai, Tamil Nadu 600040',
+                    'coordinates':[[121.65,100.86,150.15,102.26],[221.65,100.86,250.15,102.26]],
+                    'page': 1
+                },
+            'gst':
+                {
+                    'value': '123SDJJHJ234',
+                    'coordinates':[[421.65,400.86,450.15,402.26]],
+                    'page': 1
+                }
+        },
+    'itemLevel':
+        {
+            'table':
+                {
+                    'description':
+                        {
+                            'value': ['abc','abc','def','def'],
+                            'coordinates':[[221.65,100.86,250.15,102.26],[221.65,100.86,250.15,102.26],[221.65,100.86,250.15,102.26],[221.65,100.86,250.15,102.26]],
+                            'page': [1,1,2,2]
+                        },
+                    'quantity':
+                        {
+                            'value': ['2','1','2','1'],
+                            'coordinates':[[221.65,100.86,250.15,102.26],[221.65,100.86,250.15,102.26],[221.65,100.86,250.15,102.26],[221.65,100.86,250.15,102.26]],
+                            'page': [1,1,2,2]
+                        },
+                    'hsnNo':
+                        {
+                            'value': ['','','',''],
+                            'coordinates':['','','',''],
+                            'page': ['','','','']
+                        },
+                    'unitPrice':
+                        {
+                            'value': ['120','120','120','120'],
+                            'coordinates':[[221.65,100.86,250.15,102.26],[221.65,100.86,250.15,102.26],[221.65,100.86,250.15,102.26],[221.65,100.86,250.15,102.26]],
+                            'page': [1,1,2,2]
+                        },
+                    'igst':
+                        {
+                            'value': ['','','',''],
+                            'coordinates':['','','',''],
+                            'page': ['','','','']
+                        },
+                    'sgst':
+                        {
+                            'value': ['','','',''],
+                            'coordinates':['','','',''],
+                            'page': ['','','','']
+                        },
+                    'cgst':
+                        {
+                            'value': ['','','',''],
+                            'coordinates':['','','',''],
+                            'page': ['','','','']
+                        },
+                    'amount':
+                        {
+                            'value': ['120','120','120','120'],
+                            'coordinates':[[221.65,100.86,250.15,102.26],[221.65,100.86,250.15,102.26],[221.65,100.86,250.15,102.26],[221.65,100.86,250.15,102.26]],
+                            'page': [1,1,2,2]
+                        }
+                }
+        }
 }
